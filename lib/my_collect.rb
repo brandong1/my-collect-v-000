@@ -8,5 +8,6 @@ collection = []
 def my_collect(collection)
   i = 0 
   while i < collection.count
-  collection << yield
+  collection << yield(array[i])
+  
 end
